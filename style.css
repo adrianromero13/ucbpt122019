@@ -1,0 +1,50 @@
+
+body {
+    background-color: grey;
+}
+h1 {
+    background-color: black;
+    color: white;
+}
+/* float sets a box to allow content to the remaining spaces surrounding the box */
+.profile-image {
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin: 5px 10px;
+
+}
+/* this id applies to the profile image */
+#profile-name {
+    font-size: 18px;
+    color: green;
+
+}
+/* because of the rules of cascading, only the id selector will 
+come to affect */
+.h2-name {
+    color: red;
+}
+
+h2 {
+    color: yellow;
+}
+.centered {
+    text-align: center;
+}
+
+.img-div {
+    background-color: green;
+}
+
+.text-div {
+    background-color: white;
+    float: left;
+    width: 33%
+}
+
+.list-div {
+    background-color: red;
+    float: left;
+    width: 33%
+}
